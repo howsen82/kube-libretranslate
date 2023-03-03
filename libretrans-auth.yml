@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: libretrans-auth
+type: Opaque
+data:
+  auth: <base64-user-password-pair>
